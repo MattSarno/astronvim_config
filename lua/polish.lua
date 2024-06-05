@@ -1,5 +1,7 @@
-vim.wo.wrap = true
-vim.wo.linebreak = true
+vim.opt.wrap = true
+vim.opt.linebreak = true
+vim.opt.list = true
+vim.opt.listchars="tab:> ,trail:-,eol:$"
 
 if vim.g.neovide then
   vim.g.neovide_cursor_vfx_mode = "pixiedust"
